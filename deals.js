@@ -138,6 +138,14 @@ window.BFAI_DEALS = [
 
   /* ---- Software ------------------------------------------------- */
   {
+    id: "sitedata", name: "SiteData", vendor: "SiteData", category: "Software", model: "annual",
+    tagline: "Website traffic, SEO and competitor ad research.",
+    description: "50% off annual plans and 30% off monthly plans. Starter US$49.50/year (regular US$99) or US$20.30/month (regular US$29). No code needed at Stripe checkout. The same discounts apply on renewals while subscribed. Ends Nov 30, 2026 at 16:00 UTC.",
+    originalPrice: 99, dealPrice: 49.50, per: "/yr", discountLabel: "50% OFF annual", discountPct: 50,
+    cta: "https://sitedata.dev/black-friday", source: "SiteData", sourceUrl: "https://sitedata.dev/black-friday",
+    checkedOn: "25 Nov", ends: "30 Nov, 16:00 UTC"
+  },
+  {
     id: "scalenut", name: "Scalenut", vendor: "Scalenut", category: "Software", model: "annual",
     tagline: "SEO content, 65% off plus 3× usage.",
     description: "65% off every annual plan with 3× usage limits. Starter drops from $59 to $21/mo, billed yearly.",
