@@ -593,6 +593,13 @@ window.BFAI_DEALS = [
     description: "Turn speech into polished text in any app with local or cloud AI and support for 100+ languages. Tier 1 $49, $180 reference.",
     originalPrice: 180, dealPrice: 49, per: "once", discountLabel: "73% OFF", discountPct: 73,
     cta: "https://appsumo.com/products/amical/", source: "AppSumo", sourceUrl: AS2, checkedOn: "19 Nov", ends: "20 Nov"
+  },
+  {
+    id: "backlinkgenie", name: "BacklinkGenie", vendor: "BacklinkGenie", category: "Software", model: "annual",
+    tagline: "AI link-building agent with an MCP server.",
+    description: "Finds posts where your product belongs, writes each pitch for your approval, sends and follows up, and checks won links stay live. 50% off yearly or 30% off monthly, every billing cycle while subscribed; Starter $990 to $495/yr.",
+    originalPrice: 990, dealPrice: 495, per: "/yr", discountLabel: "50% OFF", discountPct: 50,
+    cta: "https://backlinkgenie.com/black-friday/?utm_source=bfstack&utm_medium=deal&utm_campaign=bfcm2026", source: "dqhieu/black-friday-deals", sourceUrl: "https://github.com/dqhieu/black-friday-deals", checkedOn: "25 Nov", ends: "31 Dec"
   }
 ];
 
