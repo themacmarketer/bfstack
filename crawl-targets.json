@@ -4,33 +4,41 @@
       "url": "https://appsumo.com/blackfriday",
       "addedAt": "2026-11-18",
       "addedBy": "Ivan",
-      "lastCrawledAt": "2026-11-19",
-      "candidates": 10,
-      "note": "AppSumo BFCM hub. Drop 1 prices rose after 48h; Drop 2 (AI Agents & Automation) is now live. Drops rotate every other day at 8am CT."
+      "lastCrawledAt": "2026-11-26",
+      "candidates": 13,
+      "note": "BFCM hub. Drop 2 window ended; an extra 15% discount ran until 26 Nov 8am CT. Prices shown include that discount. Repriced nine rows, removed five expired Drop 2 tools, added Mootion and reap."
     },
     {
       "url": "https://appsumo.com/collections/black-friday-2026-drop-2",
       "addedAt": "2026-11-19",
       "addedBy": "Rory",
-      "lastCrawledAt": "2026-11-19",
-      "candidates": 8,
-      "note": "Drop 2 AI Agents & Automation. Eight AI tools added to the board; lowest price holds 48h then rises."
+      "lastCrawledAt": "2026-11-26",
+      "candidates": 0,
+      "note": "Expired drop page. Five tools from this drop removed from the board; three repriced and kept. Keep as a historical target or remove."
     },
     {
       "url": "https://ottokit.com/blog/top-black-friday-deals/",
       "addedAt": "2026-11-18",
       "addedBy": "Ivan",
-      "lastCrawledAt": "2026-11-19",
+      "lastCrawledAt": "2026-11-26",
       "candidates": 5,
-      "note": "OttoKit roundup. Percentages only. Lifetime headline moved 57% -> 64% on 19 Nov. Category headings filtered as noise."
+      "note": "OttoKit roundup. Percentages only, lifetime headline 64%. Stable since 19 Nov."
     },
     {
       "url": "https://6amtech.com/blog/best-ai-black-friday-deals/",
       "addedAt": "2026-11-18",
       "addedBy": "Ivan",
-      "lastCrawledAt": "2026-11-19",
+      "lastCrawledAt": "2026-11-26",
       "candidates": 0,
-      "note": "Low signal: most entries say 'Coming Soon'. Botsify's real prices were added manually."
+      "note": "Noise filter tightened: list items without a price are no longer candidates. Only Botsify had real prices."
+    },
+    {
+      "url": "https://blackfriday.tools/ai-tools",
+      "addedAt": "2026-11-26",
+      "addedBy": "Rory",
+      "lastCrawledAt": "2026-11-26",
+      "candidates": 55,
+      "note": "55 verified AI listings, 53 live. Added six with concrete prices and dates: Skillry, Shorvo, Whisper Memos, Transync AI, FastScribe, VibeCodePicks. ChatGPT/Claude/Gemini/Grok/Suno still have no verified offer."
     }
   ]
 }

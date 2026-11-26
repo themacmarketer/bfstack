@@ -45,6 +45,7 @@ var THT = "https://github.com/thuongtin/awesome-bfcm-2026";
 var DM = "https://dealmirror.com/";
 var AS = "https://appsumo.com/blackfriday";
 var AS2 = "https://appsumo.com/collections/black-friday-2026-drop-2";
+var BFT = "https://blackfriday.tools/ai-tools";
 var OT = "https://ottokit.com/blog/top-black-friday-deals/";
 var SXT = "https://6amtech.com/blog/best-ai-black-friday-deals/";
 
@@ -424,13 +425,6 @@ window.BFAI_DEALS = [
     cta: "https://github.com/thuongtin/awesome-bfcm-2026", source: "thuongtin BFCM list", sourceUrl: THT, checkedOn: "17 Nov", ends: "1 Dec"
   },
   {
-    id: "justdocz", name: "JustDocz", vendor: "DealMirror", category: "Software", model: "lifetime",
-    tagline: "Private AI document search, $29 lifetime.",
-    description: "AI-powered local document search with OCR at $29 lifetime, down from $149. DealMirror 30-day refund for regular buyers.",
-    originalPrice: 149, dealPrice: 29, per: "once", discountLabel: "81% OFF", discountPct: 81,
-    cta: "https://dealmirror.com/product/justdocz/", source: "DealMirror", sourceUrl: DM, checkedOn: "17 Nov", ends: "20 Nov"
-  },
-  {
     id: "radiantly", name: "Radiantly", vendor: "Radiantly", category: "AI Tools", model: "annual",
     modelLabel: "First year",
     tagline: "60% off the first annual payment.",
@@ -443,9 +437,9 @@ window.BFAI_DEALS = [
   {
     id: "visby", name: "Visby", vendor: "AppSumo", category: "Software", model: "lifetime",
     tagline: "Track AI brand mentions and GEO gaps.",
-    description: "GEO and AI search optimisation: benchmark share of voice and close SEO/GEO content gaps. Tier 1 $79, $958 reference. Price rose from $69 when Drop 1's 48h window ended.",
-    originalPrice: 958, dealPrice: 79, per: "once", discountLabel: "92% OFF", discountPct: 92,
-    cta: "https://appsumo.com/products/visby/", source: "AppSumo", sourceUrl: AS, checkedOn: "19 Nov", ends: "2 Dec"
+    description: "GEO and AI search optimisation: benchmark share of voice and close SEO/GEO gaps. Now $71.10 after Drop 1 repricing; $958 reference.",
+    originalPrice: 79, dealPrice: 71.10, per: "once", discountLabel: "10% OFF", discountPct: 10,
+    cta: "https://appsumo.com/products/visby/", source: "AppSumo", sourceUrl: AS, checkedOn: "26 Nov", ends: "2 Dec"
   },
   {
     id: "press-ranger", name: "Press Ranger", vendor: "AppSumo", category: "Software", model: "lifetime",
@@ -457,23 +451,23 @@ window.BFAI_DEALS = [
   {
     id: "emailit", name: "Emailit", vendor: "AppSumo", category: "API & Dev", model: "lifetime",
     tagline: "Transactional email via REST API or SMTP.",
-    description: "Send transactional email through a REST API or SMTP relay, with marketing campaigns and automations. 217 reviews. Price rose from $54 after Drop 1's window.",
-    originalPrice: 288, dealPrice: 64, per: "once", discountLabel: "78% OFF", discountPct: 78,
-    cta: "https://appsumo.com/products/emailit/", source: "AppSumo", sourceUrl: AS, checkedOn: "19 Nov", ends: "2 Dec"
+    description: "Transactional email via REST API or SMTP relay, plus campaigns and automations. Now $57.60 after the 26 Nov discount, from $64.",
+    originalPrice: 64, dealPrice: 57.60, per: "once", discountLabel: "10% OFF", discountPct: 10,
+    cta: "https://appsumo.com/products/emailit/", source: "AppSumo", sourceUrl: AS, checkedOn: "26 Nov", ends: "2 Dec"
   },
   {
     id: "clugtm", name: "CluGTM", vendor: "AppSumo", category: "Software", model: "lifetime",
     tagline: "AI lead research across 1B+ profiles.",
-    description: "Formerly Cleanlist AI. Search over a billion profiles, enrich from 25+ providers and research leads with AI. 133 reviews. Tier 1 now $89, not $79.",
-    originalPrice: 600, dealPrice: 89, per: "once", discountLabel: "85% OFF", discountPct: 85,
-    cta: "https://appsumo.com/products/clugtm/", source: "AppSumo", sourceUrl: AS, checkedOn: "19 Nov", ends: "2 Dec"
+    description: "Formerly Cleanlist AI. Search 1B+ profiles, enrich from 25+ providers and research leads with AI. Now $71.20 from $89.",
+    originalPrice: 89, dealPrice: 71.20, per: "once", discountLabel: "20% OFF", discountPct: 20,
+    cta: "https://appsumo.com/products/clugtm/", source: "AppSumo", sourceUrl: AS, checkedOn: "26 Nov", ends: "2 Dec"
   },
   {
     id: "robinreach", name: "RobinReach", vendor: "AppSumo", category: "Software", model: "lifetime",
     tagline: "AI social content across 13 platforms.",
-    description: "Automate social publishing across 13 platforms with AI content creation, repurposing and MCP integration. 123 reviews. Tier 1 now $79.",
-    originalPrice: 99, dealPrice: 79, per: "once", discountLabel: "20% OFF", discountPct: 20,
-    cta: "https://appsumo.com/products/robinreach/", source: "AppSumo", sourceUrl: AS, checkedOn: "19 Nov", ends: "2 Dec"
+    description: "Automate social publishing across 13 platforms with AI content creation, repurposing and MCP. Now $71.10 from $79.",
+    originalPrice: 79, dealPrice: 71.10, per: "once", discountLabel: "10% OFF", discountPct: 10,
+    cta: "https://appsumo.com/products/robinreach/", source: "AppSumo", sourceUrl: AS, checkedOn: "26 Nov", ends: "2 Dec"
   },
 
   /* ---- From the three submitted crawl targets (checked 18 Nov) ---- */
@@ -494,9 +488,9 @@ window.BFAI_DEALS = [
   {
     id: "boostspace-agentos", name: "Boost.space AgentOS", vendor: "AppSumo", category: "AI Tools", model: "lifetime",
     tagline: "Manage AI agents across 1,400+ models.",
-    description: "Role-based access, 1,400+ AI models, 21B data records and value tracking. Early-access lifetime price now live on the BF hub.",
-    originalPrice: 299, dealPrice: 89, per: "once", discountLabel: "70% OFF", discountPct: 70,
-    cta: "https://appsumo.com/products/boostspaceagents/", source: "AppSumo", sourceUrl: AS, checkedOn: "18 Nov", ends: "2 Dec"
+    description: "Role-based access, 1,400+ AI models, 21B data records and value tracking. Now $80.10 from $89.",
+    originalPrice: 89, dealPrice: 80.10, per: "once", discountLabel: "10% OFF", discountPct: 10,
+    cta: "https://appsumo.com/products/boostspaceagents/", source: "AppSumo", sourceUrl: AS, checkedOn: "26 Nov", ends: "2 Dec"
   },
   {
     id: "vistacreate", name: "VistaCreate", vendor: "AppSumo", category: "Software", model: "lifetime",
@@ -541,58 +535,82 @@ window.BFAI_DEALS = [
   {
     id: "dm-champ", name: "DM Champ", vendor: "AppSumo", category: "AI Tools", model: "lifetime",
     tagline: "AI sales agent for DM apps.",
-    description: "AI agent that closes deals 24/7 in WhatsApp, Instagram, iMessage and other DM apps. Tier 1 $59, $804 reference.",
-    originalPrice: 804, dealPrice: 59, per: "once", discountLabel: "93% OFF", discountPct: 93,
-    cta: "https://appsumo.com/products/dm-champ/", source: "AppSumo", sourceUrl: AS2, checkedOn: "19 Nov", ends: "20 Nov"
-  },
-  {
-    id: "lety-ai", name: "Lety.ai", vendor: "AppSumo", category: "AI Tools", model: "lifetime",
-    tagline: "Sell white-label AI agents.",
-    description: "Agentic CRM with 900+ MCP integrations and subscription billing for reselling AI agents. Tier 1 $69, $299 reference.",
-    originalPrice: 299, dealPrice: 69, per: "once", discountLabel: "77% OFF", discountPct: 77,
-    cta: "https://appsumo.com/products/lety-ai/", source: "AppSumo", sourceUrl: AS2, checkedOn: "19 Nov", ends: "20 Nov"
+    description: "AI agent that closes deals 24/7 in WhatsApp, Instagram, iMessage and other DM apps. Now $58.65; the extra 15% BF discount ends 26 Nov 8am CT, then reverts to $69.",
+    originalPrice: 69, dealPrice: 58.65, per: "once", discountLabel: "15% OFF", discountPct: 15,
+    cta: "https://appsumo.com/products/dm-champ/", source: "AppSumo", sourceUrl: AS2, checkedOn: "26 Nov", ends: "2 Dec"
   },
   {
     id: "zerowork", name: "ZeroWork", vendor: "AppSumo", category: "AI Tools", model: "lifetime",
     tagline: "No-code AI browser automation.",
-    description: "Scrape data, generate leads and run social tasks with no-code AI browser automation. Tier 1 $99, $488 reference.",
-    originalPrice: 488, dealPrice: 99, per: "once", discountLabel: "80% OFF", discountPct: 80,
-    cta: "https://appsumo.com/products/zerowork/", source: "AppSumo", sourceUrl: AS2, checkedOn: "19 Nov", ends: "20 Nov"
+    description: "Scrape data, generate leads and run social tasks with no-code AI browser automation. Now 98.10 USD after the post-drop increase from 109 USD.",
+    originalPrice: 109, dealPrice: 98.10, per: "once", discountLabel: "10% OFF", discountPct: 10,
+    cta: "https://appsumo.com/products/zerowork/", source: "AppSumo", sourceUrl: AS2, checkedOn: "26 Nov", ends: "2 Dec"
   },
   {
     id: "dialora", name: "Dialora", vendor: "AppSumo", category: "AI Tools", model: "lifetime",
     tagline: "No-code AI voice agent for calls.",
-    description: "Answers calls, qualifies leads and books appointments 24/7 with a no-code AI voice agent. Tier 1 $59, $989 reference.",
-    originalPrice: 989, dealPrice: 59, per: "once", discountLabel: "94% OFF", discountPct: 94,
-    cta: "https://appsumo.com/products/dialora/", source: "AppSumo", sourceUrl: AS2, checkedOn: "19 Nov", ends: "20 Nov"
+    description: "Answers calls, qualifies leads and books appointments 24/7 with a no-code AI voice agent. Now $62.10 (was $69 before the 26 Nov discount).",
+    originalPrice: 69, dealPrice: 62.10, per: "once", discountLabel: "10% OFF", discountPct: 10,
+    cta: "https://appsumo.com/products/dialora/", source: "AppSumo", sourceUrl: AS2, checkedOn: "26 Nov", ends: "2 Dec"
   },
   {
-    id: "kavout", name: "Kavout", vendor: "AppSumo", category: "AI Tools", model: "lifetime",
-    tagline: "AI research agents for market data.",
-    description: "Turns real-time market data into actionable insights with AI research agents. Tier 1 $69, $124 reference.",
-    originalPrice: 124, dealPrice: 69, per: "once", discountLabel: "44% OFF", discountPct: 44,
-    cta: "https://appsumo.com/products/kavout/", source: "AppSumo", sourceUrl: AS2, checkedOn: "19 Nov", ends: "20 Nov"
+    id: "mootion", name: "Mootion", vendor: "AppSumo", category: "AI Tools", model: "lifetime",
+    tagline: "Prompt to full AI video.",
+    description: "Turns ideas, text, images or audio into complete videos with AI-planned structure, visuals and narration. Tier 1 $80.10 (was $89).",
+    originalPrice: 89, dealPrice: 80.1, per: "once", discountLabel: "10% OFF", discountPct: 10,
+    cta: "https://appsumo.com/products/mootion/", source: "AppSumo", sourceUrl: AS, checkedOn: "26 Nov", ends: "2 Dec"
   },
   {
-    id: "blip-ai", name: "Blip AI", vendor: "AppSumo", category: "AI Tools", model: "lifetime",
-    tagline: "Speech-to-text with a hotkey.",
-    description: "Turn speech into ready-to-send text in any app with one hotkey. Tier 1 $59, $144 reference.",
-    originalPrice: 144, dealPrice: 59, per: "once", discountLabel: "59% OFF", discountPct: 59,
-    cta: "https://appsumo.com/products/blip-ai/", source: "AppSumo", sourceUrl: AS2, checkedOn: "19 Nov", ends: "20 Nov"
+    id: "reap", name: "reap", vendor: "AppSumo", category: "AI Tools", model: "lifetime",
+    tagline: "AI video editor inside your chatbot.",
+    description: "Clip, caption, dub and edit video from Claude, ChatGPT or Cursor. Tier 1 $80.10 (was $89; AppSumo shows $1,740 reference).",
+    originalPrice: 89, dealPrice: 80.1, per: "once", discountLabel: "10% OFF", discountPct: 10,
+    cta: "https://appsumo.com/products/reap/", source: "AppSumo", sourceUrl: AS, checkedOn: "26 Nov", ends: "2 Dec"
+  },
+
+  /* ---- Newly verified AI tools from blackfriday.tools (26 Nov) ----- */
+  {
+    id: "skillry", name: "Skillry", vendor: "Skillry", category: "AI Tools", model: "lifetime",
+    priceText: "$169 founding lifetime",
+    tagline: "Founding lifetime licence.",
+    description: "50% off Pro at $9.99/month or $79/year; founding lifetime $169, down from $249.",
+    originalPrice: 249, dealPrice: 169, per: "once", discountLabel: "32% OFF", discountPct: 32,
+    cta: "https://blackfriday.tools/deals/skillry", source: "blackfriday.tools", sourceUrl: BFT, checkedOn: "26 Nov", ends: "30 Nov"
   },
   {
-    id: "triplo-ai", name: "Triplo AI", vendor: "AppSumo", category: "AI Tools", model: "lifetime",
-    tagline: "AI agent in any app, any model.",
-    description: "Rewrite, search your docs and delegate to an AI agent from any app with one hotkey and any model. Tier 1 $69, $102 reference.",
-    originalPrice: 102, dealPrice: 69, per: "once", discountLabel: "32% OFF", discountPct: 32,
-    cta: "https://appsumo.com/products/triplo-ai/", source: "AppSumo", sourceUrl: AS2, checkedOn: "19 Nov", ends: "20 Nov"
+    id: "shorvo", name: "Shorvo", vendor: "Shorvo", category: "AI Tools", model: "lifetime",
+    tagline: "AI tool, 40% off lifetime.",
+    description: "Shorvo Pro lifetime at $77.40 instead of $129, verified on the vendor page.",
+    originalPrice: 129, dealPrice: 77.4, per: "once", discountLabel: "40% OFF", discountPct: 40,
+    cta: "https://blackfriday.tools/deals/shorvo", source: "blackfriday.tools", sourceUrl: BFT, checkedOn: "26 Nov", ends: "10 Dec"
   },
   {
-    id: "amical", name: "Amical", vendor: "AppSumo", category: "AI Tools", model: "lifetime",
-    tagline: "Local or cloud dictation, 100+ languages.",
-    description: "Turn speech into polished text in any app with local or cloud AI and support for 100+ languages. Tier 1 $49, $180 reference.",
-    originalPrice: 180, dealPrice: 49, per: "once", discountLabel: "73% OFF", discountPct: 73,
-    cta: "https://appsumo.com/products/amical/", source: "AppSumo", sourceUrl: AS2, checkedOn: "19 Nov", ends: "20 Nov"
+    id: "whisper-memos", name: "Whisper Memos", vendor: "Whisper Memos", category: "AI Tools", model: "annual",
+    tagline: "AI meeting notes, 30% off yearly.",
+    description: "Yearly plan at $49.99 instead of $69.99.",
+    originalPrice: 69.99, dealPrice: 49.99, per: "/yr", discountLabel: "29% OFF", discountPct: 29,
+    cta: "https://blackfriday.tools/deals/whisper-memos", source: "blackfriday.tools", sourceUrl: BFT, checkedOn: "26 Nov", ends: "6 Dec"
+  },
+  {
+    id: "transync-ai", name: "Transync AI", vendor: "Transync AI", category: "AI Tools", model: "annual",
+    tagline: "$20 off Personal Premium annual.",
+    description: "Personal Premium annual drops from $89.90 to $69.90; also $20 off a 100-hour time card.",
+    originalPrice: 89.9, dealPrice: 69.9, per: "/yr", discountLabel: "$20 OFF", discountPct: 22,
+    cta: "https://blackfriday.tools/deals/transync-ai", source: "blackfriday.tools", sourceUrl: BFT, checkedOn: "26 Nov", ends: "1 Dec"
+  },
+  {
+    id: "fastscribe", name: "FastScribe", vendor: "FastScribe", category: "AI Tools", model: "annual",
+    tagline: "AI writing, $31 off first year.",
+    description: "Pro at $89 for the first year, normally $120, plus 6,500 bonus credits.",
+    originalPrice: 120, dealPrice: 89, per: "/yr", discountLabel: "26% OFF", discountPct: 26,
+    cta: "https://blackfriday.tools/deals/fastscribe", source: "blackfriday.tools", sourceUrl: BFT, checkedOn: "26 Nov", ends: "30 Nov"
+  },
+  {
+    id: "vibecodepicks", name: "VibeCodePicks", vendor: "VibeCodePicks", category: "Software", model: "annual",
+    tagline: "Verified annual plan, $20 off.",
+    description: "Annual plan at $59 for the first year, regular $79/year.",
+    originalPrice: 79, dealPrice: 59, per: "/yr", discountLabel: "25% OFF", discountPct: 25,
+    cta: "https://blackfriday.tools/deals/vibecodepicks", source: "blackfriday.tools", sourceUrl: BFT, checkedOn: "26 Nov", ends: "1 Dec"
   }
 ];
 
