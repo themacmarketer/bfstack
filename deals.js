@@ -49,6 +49,8 @@ var BFT = "https://blackfriday.tools/ai-tools";
 var SCR = "https://www.scriptbyai.com/ai-black-friday-deals/";
 var OT = "https://ottokit.com/blog/top-black-friday-deals/";
 var SXT = "https://6amtech.com/blog/best-ai-black-friday-deals/";
+var IM = "https://indiemarkdowns.com/black-friday-2026/ai-developer-tools/";
+var ADL = "https://aideals.app/deals/black-friday";
 
 window.BFAI_DEALS = [
   /* ---- AI Tools ------------------------------------------------- */
@@ -735,13 +737,102 @@ window.BFAI_DEALS = [
     description: "Creator first year $99, down from $220. Separate from the $1 first-month offer already listed. Renews at standard pricing.",
     originalPrice: 220, dealPrice: 99, per: "/yr", discountLabel: "55% OFF", discountPct: 55,
     cta: "https://elevenlabs.io/black-friday-promo", source: "blackfriday.tools", sourceUrl: BFT, checkedOn: "27 Nov", ends: "1 Dec"
+  },
+
+  /* ---- Indie Mac/dev tools verified via IndieMarkdowns (27 Nov) ---- */
+  {
+    id: "perch", name: "Perch", vendor: "Perch", category: "Software", model: "lifetime",
+    tagline: "Approve AI coding agents from your iPhone.",
+    description: "Menu-bar monitor for Claude Code, Codex and Cursor sessions. $17.40 instead of $29 with code BLACKFRIDAY2026, first 500 orders only.",
+    originalPrice: 29, dealPrice: 17.4, per: "once", discountLabel: "40% OFF", discountPct: 40,
+    cta: "https://perch.run/", source: "IndieMarkdowns", sourceUrl: IM, checkedOn: "27 Nov", ends: "1 Dec"
+  },
+  {
+    id: "1devtool", name: "1DevTool", vendor: "1DevTool", category: "Software", model: "lifetime",
+    tagline: "Multi-agent coding desktop, one price.",
+    description: "Run coding CLIs alongside browser, database and Git tools. Pro 1-device perpetual licence $14.50 (was $29) with code BFDEALS50, includes 12 months of updates.",
+    originalPrice: 29, dealPrice: 14.5, per: "once", discountLabel: "50% OFF", discountPct: 50,
+    cta: "https://1devtool.com/", source: "IndieMarkdowns", sourceUrl: IM, checkedOn: "27 Nov", ends: "rolling"
+  },
+  {
+    id: "devintern", name: "DevIntern", vendor: "DevIntern", category: "Software", model: "lifetime",
+    tagline: "Self-hosted worker for GitHub tickets.",
+    description: "Picks up ready Jira, Linear or GitHub tickets and has your coding agent open PRs. Supporter licence $59.40 (was $99) with code BLACKFRIDAY26; list price applies after first invoice.",
+    originalPrice: 99, dealPrice: 59.4, per: "once", discountLabel: "40% OFF", discountPct: 40,
+    cta: "https://devintern.com/", source: "IndieMarkdowns", sourceUrl: IM, checkedOn: "27 Nov", ends: "rolling"
+  },
+  {
+    id: "chalk", name: "Chalk", vendor: "Chalk", category: "Software", model: "lifetime",
+    tagline: "Whiteboard feedback for Claude Code.",
+    description: "Claude Code sketches its implementation plan on a whiteboard for annotation. One-time licence $12, down from $24, applied automatically at checkout.",
+    originalPrice: 24, dealPrice: 12, per: "once", discountLabel: "50% OFF", discountPct: 50,
+    cta: "https://getchalk.dev/", source: "IndieMarkdowns", sourceUrl: IM, checkedOn: "27 Nov", ends: "rolling"
+  },
+  {
+    id: "atelier", name: "Atelier", vendor: "Apps by Mo", category: "Software", model: "lifetime",
+    tagline: "Manage coding sessions and project memory.",
+    description: "Mac workspace for Claude Code, Codex and Cursor that keeps tasks, releases, feedback and memory. Regular $19.99 paid once; 50% off with code BLACKFRIDAY, so roughly $10.",
+    originalPrice: 19.99, dealPrice: 10, per: "once", discountLabel: "50% OFF", discountPct: 50,
+    cta: "https://appsbymo.app/atelier/", source: "IndieMarkdowns", sourceUrl: IM, checkedOn: "27 Nov", ends: "rolling"
+  },
+  {
+    id: "slashspace", name: "Slashspace AI", vendor: "Slashspace", category: "AI Tools", model: "annual",
+    priceText: "51% off yearly",
+    tagline: "Branching AI chats on a canvas.",
+    description: "Formerly RabbitHoles AI. 51% off the yearly plan with code BF2026. blackfriday.tools also lists 51% off, live to 1 Dec.",
+    originalPrice: 0, dealPrice: 0, per: "", discountLabel: "51% OFF", discountPct: 51,
+    cta: "https://www.slashspace.ai/", source: "IndieMarkdowns", sourceUrl: IM, checkedOn: "27 Nov", ends: "1 Dec"
+  },
+  {
+    id: "dockspace", name: "Dockspace", vendor: "Dockspace", category: "Software", model: "lifetime",
+    tagline: "Watch Claude, Codex and Antigravity limits.",
+    description: "Lifetime licence for one Mac $9.99 (was $19.99) with code BLACKFRIDAY2026. Five-Mac Forever Edition $24.99.",
+    originalPrice: 19.99, dealPrice: 9.99, per: "once", discountLabel: "50% OFF", discountPct: 50,
+    cta: "https://dockspace.app/", source: "IndieMarkdowns", sourceUrl: IM, checkedOn: "27 Nov", ends: "rolling"
+  },
+  {
+    id: "lidnight", name: "Lidnight", vendor: "Lidnight", category: "Software", model: "lifetime",
+    tagline: "Keep Mac agents running lid-closed.",
+    description: "Lidnight Pro for one Mac $4.99, down from $9.99. Discount applied automatically at checkout, no code.",
+    originalPrice: 9.99, dealPrice: 4.99, per: "once", discountLabel: "50% OFF", discountPct: 50,
+    cta: "https://lidnight.app/", source: "IndieMarkdowns", sourceUrl: IM, checkedOn: "27 Nov", ends: "rolling"
+  },
+  {
+    id: "callout", name: "Callout", vendor: "Callout", category: "Software", model: "lifetime",
+    tagline: "Voice bug reports into Claude Code fixes.",
+    description: "One-time licence $19.99 instead of $49, automatic on the official site. No end date published.",
+    originalPrice: 49, dealPrice: 19.99, per: "once", discountLabel: "59% OFF", discountPct: 59,
+    cta: "https://saycallout.com/", source: "IndieMarkdowns", sourceUrl: IM, checkedOn: "27 Nov", ends: "rolling"
+  },
+  {
+    id: "clipy", name: "Clipy", vendor: "Clipy", category: "Software", model: "annual",
+    tagline: "Screen recordings as agent context.",
+    description: "Clipy Pro annual $49 for the first year (was $72) with code CLIPYBF26. Renews at $72/year.",
+    originalPrice: 72, dealPrice: 49, per: "/yr", discountLabel: "32% OFF", discountPct: 32,
+    cta: "https://clipy.online/", source: "IndieMarkdowns", sourceUrl: IM, checkedOn: "27 Nov", ends: "rolling"
+  },
+  {
+    id: "meku", name: "Meku", vendor: "Meku", category: "AI Tools", model: "annual",
+    priceText: "30% off yearly plans",
+    tagline: "Build AI apps with source code.",
+    description: "30% off all yearly plans with code BLFCM2026. Price not published on the tracker page.",
+    originalPrice: 0, dealPrice: 0, per: "", discountLabel: "30% OFF", discountPct: 30,
+    cta: "https://meku.dev/", source: "IndieMarkdowns", sourceUrl: IM, checkedOn: "27 Nov", ends: "rolling"
+  },
+  {
+    id: "grammarly-pro", name: "Grammarly Pro", vendor: "Grammarly", category: "Software", model: "annual",
+    priceText: "50% off one payment",
+    tagline: "AI writing assistant, first payment half price.",
+    description: "50% off one subscription period for the first seat; not valid on prior purchases or App Store / Google Play buys. Vendor publishes no end date — check checkout.",
+    originalPrice: 0, dealPrice: 0, per: "", discountLabel: "50% OFF", discountPct: 50,
+    cta: "https://help.superhuman.com/hc/en-us/articles/50295029981709-Black-Friday-or-Cyber-Monday-discount-on-Grammarly", source: "AIDeals.app", sourceUrl: ADL, checkedOn: "27 Nov", ends: "rolling"
   }
 ];
 
 /* Big names with no live offer at check time — shown as a watchlist. */
 window.BFAI_NO_DEAL = [
   "ChatGPT", "Claude", "Gemini", "Cursor", "GitHub Copilot",
-  "Midjourney", "Perplexity", "Grammarly", "Notion", "HeyGen",
+  "Midjourney", "Perplexity", "Notion", "HeyGen",
   "Descript", "Canva", "Ahrefs", "Semrush"
 ];
 
@@ -772,5 +863,6 @@ window.BFAI_SOURCE_DIRECTORY = [
   { name: "AIYMAO", type: "Tracker", url: "https://aiymao.com/black-friday/", note: "211 verified 2026 AI offers grouped by coding, image, video, voice and general tools." },
   { name: "zPlatform", type: "Tracker", url: "https://zplatform.ai/ai-black-friday-deals/", note: "71 AI tools tracked, 28 confirmed offers at 27 Nov check." },
   { name: "Resource.fyi", type: "Tracker", url: "https://resource.fyi/black-friday-deals", note: "173 live software/AI/app deals, including developer tools and Mac apps." },
-  { name: "SurePrompts", type: "Tracker", url: "https://sureprompts.com/blog/black-friday-ai-saas-deals-2026", note: "46 verified BFCM AI/SaaS discounts." }
+  { name: "SurePrompts", type: "Tracker", url: "https://sureprompts.com/blog/black-friday-ai-saas-deals-2026", note: "46 verified BFCM AI/SaaS discounts." },
+  { name: "IndieMarkdowns", type: "Tracker", url: "https://indiemarkdowns.com/black-friday-2026/ai-developer-tools/", note: "133 lifetime dev/AI deals, 108 confirmed for 2026; each entry states whether confirmed with the maker. Strongest source for indie Mac and coding-agent tools." }
 ];
