@@ -46,6 +46,7 @@ var DM = "https://dealmirror.com/";
 var AS = "https://appsumo.com/blackfriday";
 var AS2 = "https://appsumo.com/collections/black-friday-2026-drop-2";
 var BFT = "https://blackfriday.tools/ai-tools";
+var SCR = "https://www.scriptbyai.com/ai-black-friday-deals/";
 var OT = "https://ottokit.com/blog/top-black-friday-deals/";
 var SXT = "https://6amtech.com/blog/best-ai-black-friday-deals/";
 
@@ -251,18 +252,18 @@ window.BFAI_DEALS = [
     id: "boltai", name: "BoltAI", vendor: "BoltAI", category: "Software", model: "byok",
     modelLabel: "BYOK · lifetime",
     tagline: "Bring your own key, pay once.",
-    description: "Up to $160 off one-time licences with code BFCM2026. Pro $59 (was $99), Pro+ $119, Lifetime $239.",
+    description: "40% off with code BFCM2026: Pro $59 (was $99), Pro+ $119, lifetime $239.40 (was $399). BYOK Mac client. The homepage showed no BF banner at check — verify at checkout.",
     originalPrice: 99, dealPrice: 59, per: "once", discountLabel: "40% OFF", discountPct: 40,
-    cta: "https://boltai.com/blackfriday", source: "TechBonna", sourceUrl: TB, checkedOn: "15 Nov", ends: "1 Dec",
+    cta: "https://boltai.com/blackfriday", source: "TechBonna", sourceUrl: TB, checkedOn: "27 Nov", ends: "1 Dec",
     featured: true
   },
   {
     id: "typingmind", name: "TypingMind", vendor: "TypingMind", category: "Software", model: "byok",
     modelLabel: "BYOK · lifetime",
     tagline: "Your keys, your chat UI, forever.",
-    description: "60% off lifetime Premium at $79, down from $198. One of the longest-running BYOK front ends.",
-    originalPrice: 198, dealPrice: 79, per: "once", discountLabel: "60% OFF", discountPct: 60,
-    cta: "https://www.typingmind.com/", source: "PromptsRush", sourceUrl: PR, checkedOn: "16 Nov", ends: "15 Dec"
+    description: "60% off lifetime Premium at $79.20, down from $198. Code BLACKFRIDAY2026. End-date conflict: the shortlist says 30 Nov, blackfriday.tools says 15 Dec.",
+    originalPrice: 198, dealPrice: 79.2, per: "once", discountLabel: "60% OFF", discountPct: 60,
+    cta: "https://feedback.typingmind.com/changelog/black-friday-cyber-monday-2026-sale", source: "ScriptByAI", sourceUrl: SCR, checkedOn: "27 Nov", ends: "15 Dec"
   },
 
   /* ---- API & credits -------------------------------------------- */
@@ -672,6 +673,68 @@ window.BFAI_DEALS = [
     description: "Build apps and websites from ChatGPT or Claude with database, login, hosting and payments built in. No coupon needed.",
     originalPrice: 0, dealPrice: 0, per: "", discountLabel: "50% OFF", discountPct: 50,
     cta: "https://saasblackfriday.online/apper-black-friday/", source: "SaaS Black Friday", sourceUrl: SBF, checkedOn: "27 Nov", ends: "31 Dec"
+  },
+
+  /* ---- From Ivan's 27 Nov shortlist, each checked before adding ----- */
+  {
+    id: "genspark", name: "Genspark", vendor: "Genspark", category: "AI Tools", model: "annual",
+    priceText: "50% off first year",
+    tagline: "Research, slides, sheets and reports.",
+    description: "50% off the first year of Plus or Pro annual plans; team plans excluded. Tracker-reported — the vendor homepage showed no banner at check, so verify at checkout.",
+    originalPrice: 0, dealPrice: 0, per: "", discountLabel: "50% OFF", discountPct: 50,
+    cta: "https://www.genspark.ai/", source: "ScriptByAI", sourceUrl: SCR, checkedOn: "27 Nov", ends: "1 Dec"
+  },
+  {
+    id: "manus", name: "Manus", vendor: "Manus", category: "AI Tools", model: "annual",
+    priceText: "$900 first year (Pro)",
+    tagline: "Autonomous agents for research and prototyping.",
+    description: "Pro $100 tier: $900 for first year, Max $200 tier: $1,600. That's 25% vs 12 monthly payments, but only 10% vs normal annual price. Pro tiers below $100 excluded; renews at full price.",
+    originalPrice: 1200, dealPrice: 900, per: "/yr", discountLabel: "25% OFF", discountPct: 10,
+    cta: "https://help.manus.im/en/articles/18542127-how-does-the-manus-black-friday-2026-offer-work", source: "Manus help centre", sourceUrl: SBF, checkedOn: "27 Nov", ends: "30 Nov"
+  },
+  {
+    id: "coursera-plus", name: "Coursera Plus", vendor: "Coursera", category: "Software", model: "annual",
+    tagline: "10,000+ courses, one annual fee.",
+    description: "$239.40/year for 12 months, down from $399. New subscribers only; not available in India, UK or Australia. Renews at $399/year unless cancelled.",
+    originalPrice: 399, dealPrice: 239.4, per: "/yr", discountLabel: "40% OFF", discountPct: 40,
+    cta: "https://www.coursera.org/courseraplus", source: "Coursera offer terms", sourceUrl: SBF, checkedOn: "27 Nov", ends: "30 Nov"
+  },
+  {
+    id: "snov-io", name: "Snov.io", vendor: "Snov.io", category: "Software", model: "annual",
+    tagline: "AI lead generation and outreach.",
+    description: "50% off annual plans with code BLACKFRIDAY; 10% off 3-month plans with BLACKFRIDAY10. Runs to 4 Dec.",
+    originalPrice: 0, dealPrice: 0, per: "", discountLabel: "50% OFF", discountPct: 50,
+    cta: "https://saasblackfriday.online/snov-io-black-friday/", source: "SaaS Black Friday", sourceUrl: SBF, checkedOn: "27 Nov", ends: "4 Dec"
+  },
+  {
+    id: "recraft", name: "Recraft", vendor: "Recraft", category: "AI Tools", model: "annual",
+    priceText: "40% off · from $6/mo",
+    tagline: "AI image and editable vector generation.",
+    description: "40% off new annual plans, starting at $6/month billed yearly. No code. Tracker-reported with no end date and no banner on the homepage at check — verify before paying.",
+    originalPrice: 0, dealPrice: 0, per: "", discountLabel: "40% OFF", discountPct: 40,
+    cta: "https://www.recraft.ai/", source: "ScriptByAI", sourceUrl: SCR, checkedOn: "27 Nov", ends: "rolling"
+  },
+  {
+    id: "suno", name: "Suno", vendor: "Suno", category: "AI Tools", model: "annual",
+    priceText: "30% off first year · Pro $67.20",
+    tagline: "AI music generation.",
+    description: "First-year annual plans: Pro $67.20, Premier $201.60, Platinum $840. Conflict: blackfriday.tools still lists Suno as 'No deal spotted' on 27 Nov.",
+    originalPrice: 96, dealPrice: 67.2, per: "/yr", discountLabel: "30% OFF", discountPct: 30,
+    cta: "https://suno.com/", source: "ScriptByAI", sourceUrl: SCR, checkedOn: "27 Nov", ends: "30 Nov"
+  },
+  {
+    id: "enconvo", name: "Enconvo", vendor: "Enconvo", category: "AI Tools", model: "lifetime",
+    tagline: "Native Mac AI assistant, 30% off lifetime.",
+    description: "Standard lifetime $59 → $41.30, Premium $119 → $83.30, Teams $159 → $111.30. No code, applied at checkout. Verified by blackfriday.tools on 21 Nov.",
+    originalPrice: 59, dealPrice: 41.3, per: "once", discountLabel: "30% OFF", discountPct: 30,
+    cta: "https://enconvo.com/", source: "blackfriday.tools", sourceUrl: BFT, checkedOn: "27 Nov", ends: "7 Dec"
+  },
+  {
+    id: "elevenlabs-annual", name: "ElevenLabs Creator (annual)", vendor: "ElevenLabs", category: "AI Tools", model: "annual",
+    tagline: "55% off first year, not the $1 trial.",
+    description: "Creator first year $99, down from $220. Separate from the $1 first-month offer already listed. Renews at standard pricing.",
+    originalPrice: 220, dealPrice: 99, per: "/yr", discountLabel: "55% OFF", discountPct: 55,
+    cta: "https://elevenlabs.io/black-friday-promo", source: "blackfriday.tools", sourceUrl: BFT, checkedOn: "27 Nov", ends: "1 Dec"
   }
 ];
 
@@ -704,5 +767,10 @@ window.BFAI_SOURCE_DIRECTORY = [
   { name: "LTD Explorer", type: "Tracker", url: "https://ltdexplorer.com/blog/black-friday-lifetime-deals-2026", note: "Tracks AppSumo, RocketHub, Earlybird, Dealify, DealMirror and StackSocial; flags guessed versus vendor-confirmed dates." },
   { name: "DealMirror", type: "Marketplace", url: "https://dealmirror.com/", note: "Secondary LTD marketplace with many niche AI tools; 30-day refund for regular buyers, 60 days for Prime." },
   { name: "PCPartPicker", type: "Verification tool", url: "https://pcpartpicker.com/", note: "Part-level price history and cross-retailer comparison. The right way to verify an AI-workstation 'discount' in a shortage year." },
-  { name: "Keepa", type: "Verification tool", url: "https://keepa.com/", note: "Amazon price history back to 2011, stock and seller data, with a free browser extension — catches inflated 'was' prices." }
+  { name: "Keepa", type: "Verification tool", url: "https://keepa.com/", note: "Amazon price history back to 2011, stock and seller data, with a free browser extension — catches inflated 'was' prices." },
+  { name: "ScriptByAI", type: "Tracker", url: "https://www.scriptbyai.com/ai-black-friday-deals/", note: "Mainstream AI subscription roundup with end dates; some claims were not visible on vendor pages at check." },
+  { name: "AIYMAO", type: "Tracker", url: "https://aiymao.com/black-friday/", note: "211 verified 2026 AI offers grouped by coding, image, video, voice and general tools." },
+  { name: "zPlatform", type: "Tracker", url: "https://zplatform.ai/ai-black-friday-deals/", note: "71 AI tools tracked, 28 confirmed offers at 27 Nov check." },
+  { name: "Resource.fyi", type: "Tracker", url: "https://resource.fyi/black-friday-deals", note: "173 live software/AI/app deals, including developer tools and Mac apps." },
+  { name: "SurePrompts", type: "Tracker", url: "https://sureprompts.com/blog/black-friday-ai-saas-deals-2026", note: "46 verified BFCM AI/SaaS discounts." }
 ];

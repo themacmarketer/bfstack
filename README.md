@@ -25,7 +25,7 @@ A deal is included only when a public tracker reported reading the offer on a pa
 | thuongtin BFCM list | https://github.com/thuongtin/awesome-bfcm-2026 | 17 Nov 2026 |
 | DealMirror | https://dealmirror.com/ | 17 Nov 2026 |
 
-A further **20 checked sources** are published in the on-site directory (`BFAI_SOURCE_DIRECTORY`): trackers, GitHub lists, LTD marketplaces and price-verification tools. Every URL was confirmed as a live, relevant page between 17 and 27 November 2026. Deals can be filtered by source in the UI or via `?source=<name>` (e.g. `?source=blackfriday.tools`), and searched with `?q=<term>`.
+A further **25 checked sources** are published in the on-site directory (`BFAI_SOURCE_DIRECTORY`): trackers, GitHub lists, LTD marketplaces and price-verification tools. Every URL was confirmed as a live, relevant page between 17 and 27 November 2026. Deals can be filtered by source in the UI or via `?source=<name>` (e.g. `?source=blackfriday.tools`), and searched with `?q=<term>`.
 
 `sourceUrl` is the evidence; `cta` is the vendor. If they disagree, the vendor page wins. Trackers can be wrong and offers expire — re-check before publishing further changes.
 
