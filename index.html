@@ -56,7 +56,6 @@
         <a href="#deals">Deals</a>
         <a href="#method">How we source</a>
         <a href="#sources">Sources</a>
-        <a href="#crawler">Crawl a source</a>
         <a href="#submit">Submit a deal</a>
       </nav>
       <button class="theme-toggle" id="theme-toggle" type="button" aria-label="Switch to dark theme" title="Toggle light / dark theme">
@@ -204,33 +203,10 @@
       </div>
     </section>
 
-    <section class="crawler-section" id="crawler">
-      <div class="wrap">
-        <div class="section-head">
-          <div>
-            <div class="kicker">04 / CRAWL A SOURCE</div>
-            <h2>Submit a site to crawl.</h2>
-            <p>Paste any deal page and the crawler returns candidate rows for review. Nothing is published automatically.</p>
-          </div>
-          <div class="result-count" id="crawl-status">Ready</div>
-        </div>
-
-        <div class="crawler-panel">
-          <form class="crawl-form" id="crawl-form">
-            <input type="url" id="crawl-url" placeholder="https://example.com/black-friday-deals" aria-label="Deal page URL" required />
-            <button class="btn btn--primary" id="crawl-button" type="submit">Crawl source <span aria-hidden="true">↗</span></button>
-          </form>
-          <p class="crawler-note">Candidates are heuristic matches from the page HTML — not verified offers. Check each against the vendor before adding it to <code>deals.js</code>.</p>
-          <div class="crawl-seeds" id="crawl-seeds"></div>
-          <div class="crawl-results" id="crawl-results" hidden></div>
-        </div>
-      </div>
-    </section>
-
     <section class="submit" id="submit">
       <div class="wrap submit__inner">
         <div>
-          <div class="kicker kicker--dark">05 / OPEN SUBMISSIONS</div>
+          <div class="kicker kicker--dark">04 / OPEN SUBMISSIONS</div>
           <h2>Founding a tool? Get listed.</h2>
           <p>Drop your deal in the repo — one row in <code>deals.js</code>, one pull request. No gatekeeper, no pay-to-play.</p>
         </div>
@@ -242,7 +218,7 @@
   <footer class="site-footer">
     <div class="wrap footer-inner">
       <div class="footer-brand"><span class="brand__mark">BF<span>/</span>AI</span><p>Deals for people who build with AI.</p></div>
-      <div class="footer-links"><a href="#deals">Deals</a><a href="#method">Method</a><a href="#sources">Sources</a><a href="#crawler">Crawl</a><a href="https://github.com/themacmarketer/bfstack" target="_blank" rel="noopener">GitHub</a></div>
+      <div class="footer-links"><a href="#deals">Deals</a><a href="#method">Method</a><a href="#sources">Sources</a><a href="https://github.com/themacmarketer/bfstack" target="_blank" rel="noopener">GitHub</a></div>
     </div>
     <div class="wrap footer-legal">
       <p><strong>How to read this:</strong> Deals were checked between 9 Nov and <span id="freshness-range">27 Nov 2026</span> against public trackers that read vendor pages. Each card links to the evidence. Prices, codes and end dates can change — the vendor's own page is authoritative. Some links may become affiliate links; that does not change what we report.</p>

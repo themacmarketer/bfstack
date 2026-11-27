@@ -71,20 +71,27 @@ All content lives in [`deals.js`](deals.js). Add one object to `window.BFAI_DEAL
 
 Add a new category to `BFAI_CATEGORIES`; add a pricing model to `BFAI_MODELS` (give it an `accent` hex — card colour encodes the model). `BFAI_NO_DEAL` drives the "no live offer yet" watchlist.
 
-## Submit a source for crawling
+## Crawling sources (admin only)
 
-The site has a "Crawl a source" section (and `POST /api/crawl`) that fetches a page server-side and returns **deal candidates for review**. It never edits `deals.js` automatically.
+Crawling is a maintainer tool, not a public feature: the site has no crawl UI. It fetches a page server-side and returns **deal candidates for review**. It never edits `deals.js` automatically.
 
-- `api/crawl.js` — Vercel serverless function. GET lists seeded targets; POST `{ "url": "..." }` returns `{ title, finalUrl, candidates }`.
-- `lib/extract-deals.js` — shared, dependency-free extractor. Splits on `h2`–`h6` and `li`, looks for prices and percentages, dedupes, marks confidence.
-- `scripts/crawl.js` — local CLI using the same extractor:
+- `scripts/crawl.js` — **preferred**, runs locally with no public attack surface:
   ```bash
   node scripts/crawl.js                                  # crawls all crawl-targets.json entries
   node scripts/crawl.js https://example.com/deals --out results.json
   ```
+- `api/crawl.js` — optional Vercel function. **Disabled (404) unless `CRAWL_ADMIN_TOKEN` is set** in the project's environment; every request must send `Authorization: Bearer <token>`. GET lists seeded targets; POST `{ "url": "..." }` returns `{ title, finalUrl, candidates }`. Leave the variable unset to keep the endpoint off.
+- `lib/safe-fetch.js` — SSRF-safe fetcher shared by both. http/https on ports 80/443 only, no credentials, DNS resolved at connect time with every address checked against private/reserved IPv4 and IPv6 ranges (rebinding-safe), every redirect re-validated, 3 hops, timeout and 2 MB cap.
+- `lib/extract-deals.js` — shared, dependency-free extractor. Splits on `h2`–`h6` and `li`, looks for prices and percentages, dedupes, marks confidence.
 - `crawl-targets.json` — seeded targets with check dates, candidate counts and notes.
 
-Safety in the endpoint: http/https only, no credentials, private IP ranges and `localhost`/`.local`/`.internal` blocked, 3 redirects max, 9s timeout, 2 MB body cap. The UI presents every candidate as unverified with a "Copy row" action that emits a schema-ready `deals.js` object.
+Also set a Vercel Spend Management limit and a Firewall rate-limit rule on `/api/crawl`; the in-code limiter is per-instance and best-effort.
+
+## Tests
+
+```bash
+node scripts/test-security.js   # SSRF guard, crawl auth, deal URL hygiene, vercel.json headers
+```
 
 Seeded on 18 Nov 2026: AppSumo BFCM hub (10 candidates), OttoKit roundup (9), 6amtech AI list (2 — mostly "Coming Soon"). Review before publishing; the extractor is deliberately recall-first, not truth-first.
 

@@ -7,6 +7,7 @@
 const fs = require('fs');
 const path = require('path');
 const { extractDeals, stripTags } = require('../lib/extract-deals');
+const { safeGetHtml } = require('../lib/safe-fetch');
 const seeds = require('../crawl-targets.json');
 
 const args = process.argv.slice(2);
@@ -19,20 +20,14 @@ if (outIndex !== -1) {
 const urls = args.length ? args : seeds.targets.map(t => t.url);
 
 async function crawl(url) {
-  const response = await fetch(url, {
-    redirect: 'follow',
-    signal: AbortSignal.timeout(15000),
-    headers: { 'user-agent': 'BFAI-Crawler/1.0 (local)', 'accept': 'text/html' }
-  });
-  if (!response.ok) throw new Error('HTTP ' + response.status);
-  const html = (await response.text()).slice(0, 2000000);
-  const titleMatch = html.match(/<title[^>]*>([\s\S]*?)<\/title>/i);
+  const page = await safeGetHtml(url, { timeoutMs: 15000 });
+  const titleMatch = page.html.match(/<title[^>]*>([\s\S]*?)<\/title>/i);
   return {
     requestedUrl: url,
-    finalUrl: response.url,
+    finalUrl: page.finalUrl,
     title: titleMatch ? stripTags(titleMatch[1]).slice(0, 160) : '',
     fetchedAt: new Date().toISOString(),
-    candidates: extractDeals(html, response.url, { limit: 20 })
+    candidates: extractDeals(page.html, page.finalUrl, { limit: 20 })
   };
 }
 
