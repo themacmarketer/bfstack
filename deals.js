@@ -137,6 +137,14 @@ window.BFAI_DEALS = [
     cta: "https://www.hitpaw.com/", source: "PromptsRush", sourceUrl: PR, checkedOn: "16 Nov", ends: "7 Dec"
   },
 
+  {
+    id: "directory-ideas", name: "Directory Ideas", vendor: "Directory Ideas", category: "AI Tools", model: "lifetime",
+    tagline: "Pick a directory people search for, lifetime 33% off.",
+    description: "Finds directory website ideas with real US Google search numbers and a score, then first listings, outreach emails and a 7-day launch plan. Works inside Claude and ChatGPT. Lifetime drops from $89 to $59, one payment, no code needed.",
+    originalPrice: 89, dealPrice: 59, per: "once", discountLabel: "33% OFF", discountPct: 33,
+    cta: "https://directoryideas.ai/", source: "Vendor pricing pages", sourceUrl: "https://directoryideas.ai/", checkedOn: "21 Nov", ends: "30 Nov"
+  },
+
   /* ---- Software ------------------------------------------------- */
   {
     id: "scalenut", name: "Scalenut", vendor: "Scalenut", category: "Software", model: "annual",
