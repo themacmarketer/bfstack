@@ -139,6 +139,14 @@ window.BFAI_DEALS = [
     originalPrice: 0, dealPrice: 0, per: "", discountLabel: "60% OFF", discountPct: 60,
     cta: "https://www.hitpaw.com/", source: "PromptsRush", sourceUrl: PR, checkedOn: "16 Nov", ends: "7 Dec"
   },
+  {
+    id: "nuelink", name: "Nuelink", vendor: "Nuelink", category: "AI Tools", model: "annual",
+    priceText: "6 months free on yearly plans",
+    tagline: "Agentic social scheduling, 50% off yearly.",
+    description: "Agentic social scheduling for 12 platforms, with MCP for ChatGPT and Claude. 6 months free on yearly plans, or 25% off the first 3 monthly payments. BFCM26 applies automatically; regular pricing after.",
+    originalPrice: 0, dealPrice: 0, per: "", discountLabel: "50% OFF", discountPct: 50,
+    cta: "https://nuelink.com/?utm_source=github_themacmarketer&utm_medium=referral&utm_campaign=bfcm_2026", source: "thuongtin BFCM list", sourceUrl: THT, checkedOn: "22 Nov", ends: "30 Nov"
+  },
 
   /* ---- Software ------------------------------------------------- */
   {
