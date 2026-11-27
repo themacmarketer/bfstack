@@ -4,41 +4,49 @@
       "url": "https://appsumo.com/blackfriday",
       "addedAt": "2026-11-18",
       "addedBy": "Ivan",
-      "lastCrawledAt": "2026-11-26",
+      "lastCrawledAt": "2026-11-27",
       "candidates": 13,
-      "note": "BFCM hub. Drop 2 window ended; an extra 15% discount ran until 26 Nov 8am CT. Prices shown include that discount. Repriced nine rows, removed five expired Drop 2 tools, added Mootion and reap."
+      "note": "Black Friday live hub. 15% deal-of-the-day rotated from DM Champ to A-Leads; DM Champ reverted from 58.65 to 62.10. Lety.ai relisted. Added brainer.ceo and Rerun."
     },
     {
       "url": "https://appsumo.com/collections/black-friday-2026-drop-2",
       "addedAt": "2026-11-19",
       "addedBy": "Rory",
-      "lastCrawledAt": "2026-11-26",
+      "lastCrawledAt": "2026-11-27",
       "candidates": 0,
-      "note": "Expired drop page. Five tools from this drop removed from the board; three repriced and kept. Keep as a historical target or remove."
+      "note": "Expired drop page. Lety.ai relisted on the main hub; keep as historical target."
     },
     {
       "url": "https://ottokit.com/blog/top-black-friday-deals/",
       "addedAt": "2026-11-18",
       "addedBy": "Ivan",
-      "lastCrawledAt": "2026-11-26",
+      "lastCrawledAt": "2026-11-27",
       "candidates": 5,
-      "note": "OttoKit roundup. Percentages only, lifetime headline 64%. Stable since 19 Nov."
+      "note": "Percentages only, lifetime headline 64%. Unchanged since 19 Nov."
     },
     {
       "url": "https://6amtech.com/blog/best-ai-black-friday-deals/",
       "addedAt": "2026-11-18",
       "addedBy": "Ivan",
-      "lastCrawledAt": "2026-11-26",
+      "lastCrawledAt": "2026-11-27",
       "candidates": 0,
-      "note": "Noise filter tightened: list items without a price are no longer candidates. Only Botsify had real prices."
+      "note": "Still low signal; feature bullets are filtered out."
     },
     {
       "url": "https://blackfriday.tools/ai-tools",
       "addedAt": "2026-11-26",
       "addedBy": "Rory",
-      "lastCrawledAt": "2026-11-26",
+      "lastCrawledAt": "2026-11-27",
       "candidates": 55,
-      "note": "55 verified AI listings, 53 live. Added six with concrete prices and dates: Skillry, Shorvo, Whisper Memos, Transync AI, FastScribe, VibeCodePicks. ChatGPT/Claude/Gemini/Grok/Suno still have no verified offer."
+      "note": "56 verified listings, 55 live. Added intropi and Perisclaw. Conflicting with other trackers on Adobe — flagged on those cards. Big names still unannounced."
+    },
+    {
+      "url": "https://saasblackfriday.online/?status=live",
+      "addedAt": "2026-11-27",
+      "addedBy": "Rory",
+      "lastCrawledAt": "2026-11-27",
+      "candidates": 128,
+      "note": "128 live SaaS/AI deals. Added Promptwatch, GetMCP and Apper."
     }
   ]
 }

@@ -225,7 +225,7 @@ window.BFAI_DEALS = [
   {
     id: "adobe-cc", name: "Creative Cloud Pro", vendor: "Adobe", category: "Software", model: "annual",
     tagline: "$29.99/mo for the first year.",
-    description: "Creative Cloud Pro at $29.99/month for twelve months, instead of $69.99. Ends 27 November.",
+    description: "Creative Cloud Pro at $29.99/month for twelve months, instead of $69.99. Ends 27 November. Conflict: blackfriday.tools still reports no verified Adobe deal on 27 Nov — confirm at checkout.",
     originalPrice: 69.99, dealPrice: 29.99, per: "/mo yr", discountLabel: "57% OFF", discountPct: 57,
     cta: "https://www.adobe.com/", source: "WPOS", sourceUrl: WP, checkedOn: "15 Nov", ends: "27 Nov"
   },
@@ -233,7 +233,7 @@ window.BFAI_DEALS = [
     id: "adobe-firefly", name: "Firefly", vendor: "Adobe", category: "Software", model: "annual",
     modelLabel: "First 6 months",
     tagline: "Generative AI, up to 60% off.",
-    description: "Pro $9.99/mo (was $19.99), Pro Plus $19.99/mo (was $49.99) for six months. Renewal price is higher.",
+    description: "Pro $9.99/mo (was $19.99), Pro Plus $19.99/mo (was $49.99) for six months. Renewal price is higher. Conflict: blackfriday.tools still reports no verified Adobe deal on 27 Nov — confirm at checkout.",
     originalPrice: 49.99, dealPrice: 19.99, per: "/mo 6mo", discountLabel: "60% OFF", discountPct: 60,
     cta: "https://www.adobe.com/products/firefly.html", source: "WPOS", sourceUrl: WP, checkedOn: "15 Nov", ends: "6 Dec"
   },
@@ -535,9 +535,9 @@ window.BFAI_DEALS = [
   {
     id: "dm-champ", name: "DM Champ", vendor: "AppSumo", category: "AI Tools", model: "lifetime",
     tagline: "AI sales agent for DM apps.",
-    description: "AI agent that closes deals 24/7 in WhatsApp, Instagram, iMessage and other DM apps. Now $58.65; the extra 15% BF discount ends 26 Nov 8am CT, then reverts to $69.",
-    originalPrice: 69, dealPrice: 58.65, per: "once", discountLabel: "15% OFF", discountPct: 15,
-    cta: "https://appsumo.com/products/dm-champ/", source: "AppSumo", sourceUrl: AS2, checkedOn: "26 Nov", ends: "2 Dec"
+    description: "AI agent that closes deals 24/7 in WhatsApp, Instagram, iMessage and other DM apps. Now 62.10 USD after the 26 Nov deal-of-the-day expired; list 69 USD.",
+    originalPrice: 69, dealPrice: 62.1, per: "once", discountLabel: "10% OFF", discountPct: 10,
+    cta: "https://appsumo.com/products/dm-champ/", source: "AppSumo", sourceUrl: AS2, checkedOn: "27 Nov", ends: "1 Dec"
   },
   {
     id: "zerowork", name: "ZeroWork", vendor: "AppSumo", category: "AI Tools", model: "lifetime",
@@ -611,6 +611,67 @@ window.BFAI_DEALS = [
     description: "Annual plan at $59 for the first year, regular $79/year.",
     originalPrice: 79, dealPrice: 59, per: "/yr", discountLabel: "25% OFF", discountPct: 25,
     cta: "https://blackfriday.tools/deals/vibecodepicks", source: "blackfriday.tools", sourceUrl: BFT, checkedOn: "26 Nov", ends: "1 Dec"
+  },
+
+  /* ---- Black Friday 27 Nov sweep: newly found / relisted ----------- */
+  {
+    id: "lety-ai", name: "Lety.ai", vendor: "AppSumo", category: "AI Tools", model: "lifetime",
+    tagline: "Sell white-label AI agents.",
+    description: "Agentic CRM with 900+ MCP integrations and subscription billing for reselling AI agents. Relisted on the BF hub at $71.10 (was $79).",
+    originalPrice: 79, dealPrice: 71.1, per: "once", discountLabel: "10% OFF", discountPct: 10,
+    cta: "https://appsumo.com/products/lety-ai/", source: "AppSumo", sourceUrl: AS, checkedOn: "27 Nov", ends: "1 Dec"
+  },
+  {
+    id: "brainer-ceo", name: "brainer.ceo", vendor: "AppSumo", category: "AI Tools", model: "lifetime",
+    tagline: "AI builds, markets and sells your product.",
+    description: "Workflow automation that builds a business, markets it and sells it. 36 reviews. Tier 1 $53.10, list $59.",
+    originalPrice: 59, dealPrice: 53.1, per: "once", discountLabel: "10% OFF", discountPct: 10,
+    cta: "https://appsumo.com/products/brainer/", source: "AppSumo", sourceUrl: AS, checkedOn: "27 Nov", ends: "1 Dec"
+  },
+  {
+    id: "rerun", name: "Rerun — AI Coworkers", vendor: "AppSumo", category: "Software", model: "byok",
+    modelLabel: "BYOK · lifetime",
+    tagline: "Turn your API key into AI coworkers.",
+    description: "Turn an existing subscription plan or AI API key into capable coworkers. 28 reviews. Tier 1 $107.10, list $119.",
+    originalPrice: 119, dealPrice: 107.1, per: "once", discountLabel: "10% OFF", discountPct: 10,
+    cta: "https://appsumo.com/products/rerun/", source: "AppSumo", sourceUrl: AS, checkedOn: "27 Nov", ends: "1 Dec"
+  },
+  {
+    id: "intropi", name: "intropi", vendor: "intropi", category: "AI Tools", model: "lifetime",
+    tagline: "Premium lifetime at $89.99.",
+    description: "Premium lifetime for $89.99 once, regularly $189.99 on iPhone/web or $149.99 on Android.",
+    originalPrice: 189.99, dealPrice: 89.99, per: "once", discountLabel: "53% OFF", discountPct: 53,
+    cta: "https://blackfriday.tools/deals/intropi", source: "blackfriday.tools", sourceUrl: BFT, checkedOn: "27 Nov", ends: "1 Dec"
+  },
+  {
+    id: "perisclaw", name: "Perisclaw", vendor: "Perisclaw", category: "AI Tools", model: "annual",
+    tagline: "Annual plan now live at $120.",
+    description: "40% off the annual plan: $120/year instead of $200. Went live on Black Friday 27 Nov.",
+    originalPrice: 200, dealPrice: 120, per: "/yr", discountLabel: "40% OFF", discountPct: 40,
+    cta: "https://blackfriday.tools/deals/perisclaw", source: "blackfriday.tools", sourceUrl: BFT, checkedOn: "27 Nov", ends: "1 Dec"
+  },
+  {
+    id: "promptwatch", name: "Promptwatch", vendor: "Promptwatch", category: "Software", model: "annual",
+    tagline: "Track your brand in AI answers.",
+    description: "30% off the first annual plan, paid upfront. Essential $798/year, down from $1,140. Monthly plans excluded.",
+    originalPrice: 1140, dealPrice: 798, per: "/yr", discountLabel: "30% OFF", discountPct: 30,
+    cta: "https://saasblackfriday.online/promptwatch-black-friday/", source: "SaaS Black Friday", sourceUrl: SBF, checkedOn: "27 Nov", ends: "30 Nov"
+  },
+  {
+    id: "getmcp", name: "GetMCP", vendor: "GetMCP", category: "API & Dev", model: "lifetime",
+    priceText: "20% off · from $79 lifetime",
+    tagline: "Turn any API into an MCP server.",
+    description: "No-code MCP server for Claude and ChatGPT: self-hosted, standalone app or WordPress plugin. Licences $79 to $949.",
+    originalPrice: 0, dealPrice: 79, per: "once", discountLabel: "20% OFF", discountPct: 20,
+    cta: "https://saasblackfriday.online/getmcp-black-friday/", source: "SaaS Black Friday", sourceUrl: SBF, checkedOn: "27 Nov", ends: "15 Dec"
+  },
+  {
+    id: "apper", name: "Apper", vendor: "Apper", category: "Software", model: "annual",
+    priceText: "50% off for one year",
+    tagline: "Build apps from ChatGPT or Claude.",
+    description: "Build apps and websites from ChatGPT or Claude with database, login, hosting and payments built in. No coupon needed.",
+    originalPrice: 0, dealPrice: 0, per: "", discountLabel: "50% OFF", discountPct: 50,
+    cta: "https://saasblackfriday.online/apper-black-friday/", source: "SaaS Black Friday", sourceUrl: SBF, checkedOn: "27 Nov", ends: "31 Dec"
   }
 ];
 
