@@ -226,6 +226,26 @@
     el.textContent = none.join(" · ");
   }
 
+  /* ---------- Freshness label derived from deal check dates ---------- */
+  function initFreshness() {
+    var months = ["Jan", "Feb", "Mar", "Apr", "May", "Jun", "Jul", "Aug", "Sep", "Oct", "Nov", "Dec"];
+    var latest = null;
+    deals.forEach(function (d) {
+      var m = String(d.checkedOn || "").match(/^(\d{1,2})\s+([A-Za-z]{3})/);
+      if (!m) return;
+      var mi = months.indexOf(m[2].charAt(0).toUpperCase() + m[2].slice(1).toLowerCase());
+      if (mi < 0) return;
+      var dt = new Date(2026, mi, Number(m[1]));
+      if (!latest || dt > latest) latest = dt;
+    });
+    if (!latest) return;
+    var label = latest.getDate() + " " + months[latest.getMonth()] + " " + latest.getFullYear();
+    ["freshness-date", "freshness-range"].forEach(function (id) {
+      var el = document.getElementById(id);
+      if (el) el.textContent = label;
+    });
+  }
+
   /* ---------- Source submission / crawler ---------- */
   function initCrawler() {
     var form = document.getElementById("crawl-form");
@@ -404,6 +424,7 @@
   initSourceDirectory();
   initWatchlist();
   initCrawler();
+  initFreshness();
 
   var params = new URLSearchParams(location.search);
   var urlQuery = params.get("q");

@@ -2,7 +2,7 @@
 
 A zero-build static deal aggregator for AI tools, software, APIs, compute and hardware. Deals are filtered by **how you pay** — lifetime, annual, credits or BYOK — before category.
 
-Every card carries a source link and a check date. Live data was researched 15–17 November 2026, ahead of Black Friday (27 Nov) and Cyber Monday (30 Nov).
+Every card carries a source link and a check date. Live data was checked between 9 November and 27 November 2026 (Black Friday); Cyber Monday is 30 November. The banner and footer dates are derived from `checkedOn` fields in `deals.js`, so they update when data is refreshed.
 
 **Theme:** light by default, with a header toggle to dark. The choice persists in `localStorage` under `bfai-theme` and is applied by an inline head script before paint. AppSumo deals come from the live BFCM Drop 1 collection (`https://appsumo.com/collections/black-friday-2026-drop-1/`); each drop is at its lowest price for 48 hours, so `ends` dates on those rows are short.
 
@@ -25,7 +25,7 @@ A deal is included only when a public tracker reported reading the offer on a pa
 | thuongtin BFCM list | https://github.com/thuongtin/awesome-bfcm-2026 | 17 Nov 2026 |
 | DealMirror | https://dealmirror.com/ | 17 Nov 2026 |
 
-A further **20 checked sources** are published in the on-site directory (`BFAI_SOURCE_DIRECTORY`): trackers, GitHub lists, LTD marketplaces and price-verification tools. Every URL was confirmed as a live, relevant page on 17 November 2026. Deals can be filtered by source in the UI or via `?source=<name>` (e.g. `?source=blackfriday.tools`), and searched with `?q=<term>`.
+A further **20 checked sources** are published in the on-site directory (`BFAI_SOURCE_DIRECTORY`): trackers, GitHub lists, LTD marketplaces and price-verification tools. Every URL was confirmed as a live, relevant page between 17 and 27 November 2026. Deals can be filtered by source in the UI or via `?source=<name>` (e.g. `?source=blackfriday.tools`), and searched with `?q=<term>`.
 
 `sourceUrl` is the evidence; `cta` is the vendor. If they disagree, the vendor page wins. Trackers can be wrong and offers expire — re-check before publishing further changes.
 

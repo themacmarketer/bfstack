@@ -1,5 +1,5 @@
 /* ------------------------------------------------------------------
- * BF/AI — LIVE deal data (researched 15–17 November 2026)
+ * BF/AI — LIVE deal data (checked 9–27 November 2026)
  *
  * VERIFICATION STANDARD
  * A deal is included only when a public tracker reported reading the offer
@@ -682,7 +682,7 @@ window.BFAI_NO_DEAL = [
   "Descript", "Canva", "Ahrefs", "Semrush"
 ];
 
-/* 20 additional deal sources, each checked as a live page on 17 Nov 2026.
+/* Additional deal sources, each checked as a live page between 17 and 27 Nov 2026.
    type: Tracker | GitHub list | Marketplace | Verification tool */
 window.BFAI_SOURCE_DIRECTORY = [
   { name: "blackfriday.tools", type: "Tracker", url: "https://blackfriday.tools/", note: "Hand-verified SaaS and AI deals with expiry tracked to the minute; 20 live AI deals at check. Exposes an MCP/API feed." },
